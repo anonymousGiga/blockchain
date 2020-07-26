@@ -1,0 +1,14 @@
+[package]
+name = "core"
+version = "0.1.0"
+authors = ["anonymousGiga <cryptonymGong@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+leveldb = "0.8.5"
+chrono = "0.4"
+utils = {path = "../utils"}
+serde = { version = "1.0.106", features = ["derive"] }
+bigint = "4"
